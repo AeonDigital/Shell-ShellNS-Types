@@ -1,0 +1,39 @@
+Verifies that the value matches the indicated type and validation rules.
+
+@param type $1
+Expected type.
+
+@param mixed $2
+Value to be tested.
+
+@param ?array|assoc $3
+Name of the array|assoc that contains the list of values accepted as valid.
+
+If the name of an associative array is entered, it uses only the keys as
+acceptable values.
+
+@param ?int $4
+Lowest allowed value or minimum number of characters.
+
+@param ?int $5
+Highest allowed value or maximum number of characters.
+
+@return status
+See the description below for possible status codes.
+
+_,**Possible status codes**,_
+
+_,Validate config errors,_
+10 : Unrecognized type  
+11 : List name does not match an 'array' or 'assoc' object  
+12 : List name points to an empty 'array' or 'assoc' object  
+13 : Invalid valur for 'min'  
+14 : Invalid valur for 'max'
+
+_,Invalid value,_
+20 : Value and type do not match  
+21 : Given value is not in list  
+22 : Value is less than the minimum allowed  
+23 : Value is greater than the maximum allowed
+
+0  : Success

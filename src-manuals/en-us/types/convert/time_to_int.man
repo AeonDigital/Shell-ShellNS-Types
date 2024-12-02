@@ -1,0 +1,6 @@
+Converts any type of time to an integer value.
+
+@param hour|minute $1
+Time that will be converted.
+
+@return int

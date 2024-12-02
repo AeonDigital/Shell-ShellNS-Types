@@ -1,0 +1,7 @@
+Checks if the passed value is a representative of type **fileNewFullPath**.
+
+@param mixed $1
+Value that will be tested.  
+Full path to the new file. The file cannot exist.
+
+@return status

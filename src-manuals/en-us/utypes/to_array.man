@@ -1,0 +1,12 @@
+Converts the passed union type to an array.
+
+This function does not validate the types entered.
+
+@param utype $1
+Union type to be converted.
+
+@param array $2
+Name of the array that will receive the types that
+make up the union type.
+
+@return status+array

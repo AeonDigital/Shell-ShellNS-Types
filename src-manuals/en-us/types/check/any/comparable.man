@@ -1,0 +1,19 @@
+Checks if the passed value is a representative of any comparable type.
+
+It includes all types below:  
+**numerics**
+- int
+- float
+
+**dates**
+- dateTimeLocal
+- dateTime
+- date
+- month
+- hour
+- minute
+
+@param mixed $1
+Value that will be tested.
+
+@return status

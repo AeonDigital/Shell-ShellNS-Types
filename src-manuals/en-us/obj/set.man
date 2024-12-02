@@ -1,0 +1,18 @@
+Resets the current value of the indicated instance.
+
+@param assoc $1
+Name of the associative array that represent the target instance.
+
+@param mixed $2
+Value to set.
+
+@return status
+See the description below for possible status codes.
+
+_,**Possible status codes**,_
+
+11 : Invalid value  
+12 : Invalid instance  
+13 : Corrupted instance
+
+0  : Success

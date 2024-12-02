@@ -1,0 +1,25 @@
+Starts an associative array as a delegate to an object of the defined type.
+
+@param assoc $1
+Name of the associative array that will represent the instantiated type.
+
+@param string $2
+Type of the instance.
+
+@param mixed $3
+Initial value.  
+Must be a valid value for the defined type.
+
+@return status
+See the description below for possible status codes.
+
+_,**Possible status codes**,_
+
+10 : Invalid type  
+11 : Invalid value
+
+0  : Success
+
+The following keys will be generated in the associative array:
+- [type]  Name of the type.
+- [value] The current value of instance.

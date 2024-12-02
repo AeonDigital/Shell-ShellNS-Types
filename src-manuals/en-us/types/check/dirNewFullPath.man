@@ -1,0 +1,7 @@
+Checks if the passed value is a representative of type **dirNewFullPath**.
+
+@param mixed $1
+Value that will be tested.  
+Full path to the new directory. The directory cannot exist.
+
+@return status

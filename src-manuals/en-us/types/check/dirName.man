@@ -1,0 +1,7 @@
+Checks if the passed value is a representative of type **dirName**.
+
+@param mixed $1
+Value that will be tested.  
+Just the directory name, without its path. The dir may or may not exist.
+
+@return status

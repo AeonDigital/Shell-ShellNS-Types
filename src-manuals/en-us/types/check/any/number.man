@@ -1,0 +1,11 @@
+Checks if the passed value is a representative of any number type.
+
+It includes all types below:  
+**numerics**
+- int
+- float
+
+@param mixed $1
+Value that will be tested.
+
+@return status

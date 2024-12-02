@@ -1,0 +1,6 @@
+Converts any type of date to an integer value (timestamp).
+
+@param dateTimeLocal|dateTime|date|month $1
+Date that will be converted.
+
+@return int

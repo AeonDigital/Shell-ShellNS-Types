@@ -1,0 +1,7 @@
+Checks if the passed value is a representative of type **fileName**.
+
+@param mixed $1
+Value that will be tested.  
+Just the file name, without its path. The file may or may not exist.
+
+@return status

@@ -1,0 +1,11 @@
+Checks if the passed value is a representative of any array type.
+
+It includes all types below:  
+**array**
+- array
+- assoc
+
+@param mixed $1
+Value that will be tested.
+
+@return status

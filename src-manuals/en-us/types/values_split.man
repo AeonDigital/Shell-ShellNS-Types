@@ -1,0 +1,12 @@
+Converts a string of values into an array containing them.
+
+@param type $1
+Definition of the expanded type.
+
+@param string $2
+Original string with multiple values.
+
+@param array $3
+Name of the array that will receive the values.
+
+@return string+array

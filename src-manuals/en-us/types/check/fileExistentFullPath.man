@@ -1,0 +1,11 @@
+Checks if the passed value is a representative of type
+**fileExistentFullPath**.
+
+@param mixed $1
+Value that will be tested.  
+Full path to the target file. The file must exist.
+
+@param mixed $2
+Auxiliary.
+
+@return status

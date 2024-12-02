@@ -1,0 +1,14 @@
+Returns the current value of the indicated instance.
+
+@param assoc $1
+Name of the associative array that represent the target instance.
+
+@return status
+See the description below for possible status codes.
+
+_,**Possible status codes**,_
+
+12 : Invalid instance  
+13 : Corrupted instance
+
+0  : Success

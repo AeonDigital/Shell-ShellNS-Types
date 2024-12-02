@@ -1,0 +1,8 @@
+Checks if the passed value is a representative of type
+**fileExistentRelativePath**.
+
+@param mixed $1
+Value that will be tested.  
+Relative path to the target file. The file must exist.
+
+@return status

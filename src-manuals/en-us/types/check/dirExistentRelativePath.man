@@ -1,0 +1,8 @@
+Checks if the passed value is a representative of type
+**dirExistentRelativePath**.
+
+@param mixed $1
+Value that will be tested.  
+Relative path to the target directory. The directory must exist.
+
+@return status

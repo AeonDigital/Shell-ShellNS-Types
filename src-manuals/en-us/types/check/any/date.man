@@ -1,0 +1,13 @@
+Checks if the passed value is a representative of any date type.
+
+It includes all types below:  
+**date**
+- dateTimeLocal
+- dateTime
+- date
+- month
+
+@param mixed $1
+Value that will be tested.
+
+@return status
